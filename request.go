@@ -13,7 +13,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/Danny-Dasilva/fhttp/http2/hpack"
 	"io"
 	"mime"
 	"mime/multipart"
@@ -25,9 +24,11 @@ import (
 	"strings"
 	"sync"
 
-	tls "github.com/Danny-Dasilva/utls"
+	"github.com/kovalevich/fhttp/http2/hpack"
 
-	"github.com/Danny-Dasilva/fhttp/httptrace"
+	tls "github.com/kovalevich/utls"
+
+	"github.com/kovalevich/fhttp/httptrace"
 
 	"golang.org/x/net/idna"
 )

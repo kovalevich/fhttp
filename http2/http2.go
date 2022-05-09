@@ -14,7 +14,7 @@
 //
 // See https://http2.golang.org/ for a test server running this code.
 //
-package http2 // import "github.com/Danny-Dasilva/fhttp/http2"
+package http2 // import "github.com/kovalevich/fhttp/http2"
 
 import (
 	"bufio"
@@ -26,9 +26,9 @@ import (
 	"strings"
 	"sync"
 
-	tls "github.com/Danny-Dasilva/utls"
+	tls "github.com/kovalevich/utls"
 
-	http "github.com/Danny-Dasilva/fhttp"
+	http "github.com/kovalevich/fhttp"
 
 	"golang.org/x/net/http/httpguts"
 )
